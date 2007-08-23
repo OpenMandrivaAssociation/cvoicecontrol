@@ -1,10 +1,11 @@
 Name:		cvoicecontrol
 Version:	0.9
-Release:	%mkrel 0.alpha.4
+Release:	%mkrel 0.alpha.5
 License:	GPL
 Group:		Sound
 Source0:	http://www.kiecza.de/daniel/linux/%{name}-%{version}alpha.tar.bz2
 Patch0:		%{name}-make.patch.bz2
+Patch1:		%{name}-crash.patch.bz2
 URL:		http://www.kiecza.de/daniel/linux/
 BuildRequires:  texinfo
 BuildRequires:  ncurses-devel >= 5.2
@@ -21,6 +22,7 @@ command.
 %prep 
 %setup -q -n %{name}-%{version}alpha
 %patch0 -p1
+%patch1 -p1
 
 %build
 %configure
