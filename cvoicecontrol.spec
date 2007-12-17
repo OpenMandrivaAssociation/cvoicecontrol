@@ -9,7 +9,6 @@ Patch1:		%{name}-crash.patch.bz2
 URL:		http://www.kiecza.de/daniel/linux/
 BuildRequires:  texinfo
 BuildRequires:  ncurses-devel >= 5.2
-BuildRoot:	%_tmppath/%{name}-buildroot
 Summary:	CVoiceControl is a speech recognition system enabling to use spoken commands
 
 %description
