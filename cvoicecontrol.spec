@@ -10,7 +10,7 @@ URL:		http://www.kiecza.de/daniel/linux/
 BuildRequires:  texinfo
 BuildRequires:  ncurses-devel >= 5.2
 BuildRoot:	%_tmppath/%{name}-buildroot
-Summary:	CVoiceControl is a speech recognition system enabling to use spoken commands
+Summary:	Speech recognition system enabling to use spoken commands
 
 %description
 CVoiceControl is a speech recognition system that enables a user to
