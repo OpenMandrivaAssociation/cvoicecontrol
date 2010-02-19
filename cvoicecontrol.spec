@@ -25,7 +25,7 @@ command.
 %patch1 -p1
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
