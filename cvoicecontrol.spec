@@ -1,6 +1,6 @@
 Name:		cvoicecontrol
 Version:	0.9
-Release:	%mkrel 0.alpha.6
+Release:	%mkrel 0.alpha.7
 License:	GPL
 Group:		Sound
 Source0:	http://www.kiecza.de/daniel/linux/%{name}-%{version}alpha.tar.bz2
