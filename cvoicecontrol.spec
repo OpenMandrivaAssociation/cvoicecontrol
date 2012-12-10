@@ -45,3 +45,45 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/cvoicecontrol
 %{_bindir}/model_editor
 %{_bindir}/microphone_config
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.9-0.alpha.7mdv2011.0
++ Revision: 610182
+- rebuild
+
+* Fri Feb 19 2010 Funda Wang <fwang@mandriva.org> 0.9-0.alpha.6mdv2010.1
++ Revision: 508117
+- use configure2_5x
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 0.9-0.alpha.5mdv2008.1
++ Revision: 170237
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Aug 23 2007 Stéphane Téletchéa <steletch@mandriva.org> 0.9-0.alpha.5mdv2008.0
++ Revision: 69841
+- IGNORE
+- Patch to avoid the crash (solves bug #27782)
+- Import cvoicecontrol
+
+
+
+* Thu Jan 05 2006 Lenny Cartier <lenny@mandriva.com> 0.9-0.alpha.4mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.9-0.alpha.3mdk
+- rebuild
+
+* Thu Jan 30 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.9-0.alpha.2mdk
+- rebuild
+
+* Tue Oct 08 2002 Lenny Cartier <lenny@mandrakesoft.com> 0.9-0.alpha.1mdk
+- from Per �yvind Karlsen <peroyvind@delonic.no> :
+	- Initial release, specfile adopted from PLD

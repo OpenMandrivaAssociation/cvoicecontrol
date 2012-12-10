@@ -1,2 +1,4 @@
 sources:
-  "cvoicecontrol-0.9alpha.tar.bz2:"	d85906fbaf014d57cd67d099075c571c74a22b3d
+  "cvoicecontrol-0.9alpha.tar.bz2": d85906fbaf014d57cd67d099075c571c74a22b3d
+  "cvoicecontrol-crash.patch.bz2": c2225cb4ee26d67a0f732b3e3995278d77473fd8
+  "cvoicecontrol-make.patch.bz2": aaac025250b5ad95715746a4f79122b5f968b5a4
