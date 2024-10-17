@@ -6,7 +6,7 @@ Group:		Sound
 Source0:	http://www.kiecza.de/daniel/linux/%{name}-%{version}alpha.tar.bz2
 Patch0:		%{name}-make.patch.bz2
 Patch1:		%{name}-crash.patch.bz2
-URL:		http://www.kiecza.de/daniel/linux/
+URL:		https://www.kiecza.de/daniel/linux/
 BuildRequires:  texinfo
 BuildRequires:  ncurses-devel >= 5.2
 BuildRoot:	%_tmppath/%{name}-buildroot
