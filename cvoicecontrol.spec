@@ -1,6 +1,6 @@
 Name:		cvoicecontrol
 Version:	0.9
-Release:	%mkrel 0.alpha.7
+Release:	1
 License:	GPL
 Group:		Sound
 Source0:	http://www.kiecza.de/daniel/linux/%{name}-%{version}alpha.tar.bz2
@@ -90,5 +90,5 @@ rm -rf $RPM_BUILD_ROOT
 - rebuild
 
 * Tue Oct 08 2002 Lenny Cartier <lenny@mandrakesoft.com> 0.9-0.alpha.1mdk
-- from Per Øyvind Karlsen <peroyvind@delonic.no> :
+- from Per ï¿½yvind Karlsen <peroyvind@delonic.no> :
 	- Initial release, specfile adopted from PLD
